@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    display: inline;
+    justify-content: center;
+}
+
+main {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+h2, h1 {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.colors {
+    display: flex;
+}
+
+.colors p {
+    color: black;
+}
+
+.sample-one {
+    box-sizing: border-box;
+    width: 300px;
+    height: 120px;
+    border-radius: 2px;
+    background-color: #2d5dcc;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.sample-two {
+    box-sizing: border-box;
+    width: 300px;
+    height: 120px;
+    border-radius: 2px;
+    background-color: #d957d9;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.sample-three {
+    box-sizing: border-box;
+    width: 300px;
+    height: 120px;
+    border-radius: 2px;
+    background-color: #4fe0b0;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.sample-four {
+    box-sizing: border-box;
+    width: 300px;
+    height: 120px;
+    border-radius: 2px;
+    background-color: #efd9ca;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.fonts {
+    display: flex;
+}
+
+.source-code {
+    box-sizing: border-box;
+    width: max-content;
+    border-radius: 2px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.nunito-sans {
+    box-sizing: border-box;
+    width: max-content;
+    border-radius: 2px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.poppins {
+    box-sizing: border-box;
+    width: max-content;
+    border-radius: 2px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-styles {
+    display: flex;
+}
+
+.main-heading {
+    box-sizing: border-box;
+    width:max-content;
+    border-radius: 2px;
+    text-align: left;
+    padding: 10px;
+    margin: 20px;
+}
+
+.subheading {
+    box-sizing: border-box;
+    width: max-content;
+    border-radius: 2px;
+    text-align: left;
+    padding: 10px;
+    margin: 20px;
+}
+
+.paragraph {
+    box-sizing: border-box;
+    width: max-content;
+    border-radius: 2px;
+    text-align: left;
+    padding: 10px;
+    margin: 20px;
+}
+
+.final {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
