@@ -64,3 +64,60 @@ body {
 .heroCaption h2, h4 {
     font-weight: bold;
 }
+
+.card img {
+    height: 200px;
+    width: 300px;
+}
+
+.title {
+    margin: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+#teaMonth {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#locations {
+    background-image: url("/TeaCozy/img/img-locations-background.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardLocation {
+    background-color: black;
+    justify-content: space-between;
+    width: 300px;
+    opacity: 1;
+    margin: 10px;
+}
+
+.cardLocation p {
+    text-align: center;
+}
+
+.cardLocation h3 {
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+    flex-wrap: nowrap;
+}
